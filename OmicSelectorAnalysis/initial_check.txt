@@ -1,0 +1,37 @@
+
+[2022-08-25 17:11:48 | pid:1588] Staring pre-check of OmicSelector analysis ID: /OmicSelector/OmicSelector/shiny/start/166144030801161
+[2022-08-25 17:11:48 | pid:1588] Welcome! OmicSelector id loaded.
+[2022-08-25 17:11:48 | pid:1588] ✓ The file contains Class variable. 
+[2022-08-25 17:11:48 | pid:1588] 
+✓ The Class variable has only case and control cases.
+[2022-08-25 17:11:48 | pid:1588] 
+✓ The data contains 303 `Control` cases and 350 `Case` cases (cases of interest).
+[2022-08-25 17:11:48 | pid:1588] 
+✓ The data contains 19 features (e.g. miRNAs) for selection.
+[2022-08-25 17:11:48 | pid:1588] 
+✓ All features are numeric.
+[2022-08-25 17:11:48 | pid:1588] 
+✓ There are no missing data in features.
+[2022-08-25 17:11:48 | pid:1588] 
+✓ The file does not contain `Batch` variable that can be used for batch-effect correction.
+[2022-08-25 17:11:48 | pid:1588] 
+✓ Feature values are not positive integers. This is ok if your input data is normalized (e.g. deltaCt values or tpm-normalized counts). Features not looking like counts: 
+[2022-08-25 17:11:48 | pid:1588] hsa.miR.19b.3p, hsa.miR.1273h.3p, hsa.miR.4433a.3p, hsa.miR.485.3p, hsa.let.7b.5p, hsa.miR.134.5p, hsa.miR.106b.5p, hsa.miR.182.5p, hsa.miR.17.5p, hsa.miR.1304.3p, hsa.miR.30d.5p, hsa.miR.20b.5p, hsa.miR.421, hsa.miR.4433b.5p, hsa.miR.320b, hsa.miR.375.3p, hsa.miR.500a.3p, hsa.miR.139.3p, hsa.miR.493.5p
+[2022-08-25 17:11:48 | pid:1588] 
+✓ Samples in training set: 391
+[2022-08-25 17:11:48 | pid:1588] 
+✓ Samples in test set: 130
+[2022-08-25 17:11:48 | pid:1588] 
+✓ Samples in validation set: 132
+[2022-08-25 17:11:53 | pid:1588] Checking if data can be loaded. Balancing dataset... (this may take a while)
+[2022-08-25 17:11:54 | pid:1588] 
+✓ All datasets can be loaded. SMOTE-based balanced dataset can be loaded. 
+[2022-08-25 17:11:54 | pid:1588] Performing DE analysis...
+[2022-08-25 17:11:54 | pid:1588] 
+✓ DE was performed for whole dataset (mixed) and for training datasets. 
+[2022-08-25 17:11:54 | pid:1588] Drawing exploratory plots...
+[2022-08-25 17:12:00 | pid:1588] 
+✓ PCA, vulcano plot and heatmaps were generated. 
+[2022-08-25 17:12:00 | pid:1588] 
+✓ The files are ready for further analysis. 
+[2022-08-25 17:12:00 | pid:1588] [OmicSelector: TASK COMPLETED]

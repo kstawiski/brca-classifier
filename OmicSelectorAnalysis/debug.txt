@@ -1,0 +1,27 @@
+array(5) {
+  ["analysisid"]=>
+  string(15) "BRCA_postCombat"
+  ["method"]=>
+  array(7) {
+    [0]=>
+    string(3) "mlp"
+    [1]=>
+    string(5) "mlpML"
+    [2]=>
+    string(2) "rf"
+    [3]=>
+    string(4) "C5.0"
+    [4]=>
+    string(5) "rpart"
+    [5]=>
+    string(6) "rpart2"
+    [6]=>
+    string(5) "ctree"
+  }
+  ["search_iter"]=>
+  string(3) "500"
+  ["holdout"]=>
+  string(4) "TRUE"
+  ["submit"]=>
+  string(6) "Upload"
+}
